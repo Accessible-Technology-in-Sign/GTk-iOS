@@ -3,14 +3,46 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		175527432D234A4C00BBB3ED /* SLRGTk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A591FC2D226E13007B4130 /* SLRGTk.framework */; };
+		175527442D234A4C00BBB3ED /* SLRGTk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 17A591FC2D226E13007B4130 /* SLRGTk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		175527492D234D4800BBB3ED /* MPTestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175527482D234D4800BBB3ED /* MPTestEngine.swift */; };
+		175527542D23B96800BBB3ED /* HandLandmarkAnnotationController.metal in Sources */ = {isa = PBXBuildFile; fileRef = 175527532D23B95600BBB3ED /* HandLandmarkAnnotationController.metal */; };
+		175527582D23B9FB00BBB3ED /* HandLandmarkAnnotator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 175527572D23B9F500BBB3ED /* HandLandmarkAnnotator.swift */; };
+		175527672D23C3F300BBB3ED /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175527652D23C3F300BBB3ED /* Metal.framework */; };
+		175527682D23C3F300BBB3ED /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175527662D23C3F300BBB3ED /* MetalKit.framework */; };
+		1755276B2D23CD0100BBB3ED /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 175527692D23CD0100BBB3ED /* MetalKit.framework */; };
+		1755276C2D23CD0100BBB3ED /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1755276A2D23CD0100BBB3ED /* Metal.framework */; };
+		1755276D2D23CFF400BBB3ED /* HandLandmarkAnnotationController.metal in Sources */ = {isa = PBXBuildFile; fileRef = 175527532D23B95600BBB3ED /* HandLandmarkAnnotationController.metal */; };
 		17A592072D226E14007B4130 /* SLRGTk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A591FC2D226E13007B4130 /* SLRGTk.framework */; };
+		17A592632D229B5F007B4130 /* CameraProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A592552D229B5F007B4130 /* CameraProtocol.swift */; };
+		17A592642D229B5F007B4130 /* CallbackProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A592572D229B5F007B4130 /* CallbackProtocol.swift */; };
+		17A592652D229B5F007B4130 /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A592592D229B5F007B4130 /* ModelProtocol.swift */; };
+		17A592662D229B5F007B4130 /* Buffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5925B2D229B5F007B4130 /* Buffer.swift */; };
+		17A592672D229B5F007B4130 /* SLRGTk.docc in Sources */ = {isa = PBXBuildFile; fileRef = 17A5925E2D229B5F007B4130 /* SLRGTk.docc */; };
+		17A592692D229B5F007B4130 /* SLRGTk.h in Headers */ = {isa = PBXBuildFile; fileRef = 17A5925D2D229B5F007B4130 /* SLRGTk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17A5926A2D229B5F007B4130 /* SLRGTkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A592602D229B5F007B4130 /* SLRGTkTests.swift */; };
+		17A5926C2D22B9FD007B4130 /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5926B2D22B9FA007B4130 /* FilterProtocol.swift */; };
+		17A5926E2D22DC5F007B4130 /* PermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A5926D2D22DC5D007B4130 /* PermissionManager.swift */; };
+		17A592752D2336BE007B4130 /* CameraTestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A592732D2336BE007B4130 /* CameraTestEngine.swift */; };
+		17A592792D23377C007B4130 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A592782D23377B007B4130 /* MainView.swift */; };
+		17D406A62D2699E800E7FC4C /* BufferTestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D406A52D2699E500E7FC4C /* BufferTestEngine.swift */; };
+		17D406A82D269B6F00E7FC4C /* LiteRTTestEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D406A72D269B6C00E7FC4C /* LiteRTTestEngine.swift */; };
+		96529B5CBC065A31C9F41848 /* Pods_SLRGTk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A4F123155577B6EC6E48DBE /* Pods_SLRGTk.framework */; };
+		C1763CC99AD597636EF8B580 /* Pods_SLRGTk_SLRGTkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02A6AD6F726B174340370A2 /* Pods_SLRGTk_SLRGTkTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		175527452D234A4C00BBB3ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17A591F32D226E13007B4130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17A591FB2D226E13007B4130;
+			remoteInfo = SLRGTk;
+		};
 		17A592082D226E14007B4130 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 17A591F32D226E13007B4130 /* Project object */;
@@ -20,42 +52,75 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		175527472D234A4C00BBB3ED /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				175527442D234A4C00BBB3ED /* SLRGTk.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		175527192D23482200BBB3ED /* SLR GTk Tests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SLR GTk Tests.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		175527482D234D4800BBB3ED /* MPTestEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MPTestEngine.swift; sourceTree = "<group>"; };
+		175527532D23B95600BBB3ED /* HandLandmarkAnnotationController.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = HandLandmarkAnnotationController.metal; sourceTree = "<group>"; };
+		175527572D23B9F500BBB3ED /* HandLandmarkAnnotator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandLandmarkAnnotator.swift; sourceTree = "<group>"; };
+		175527652D23C3F300BBB3ED /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		175527662D23C3F300BBB3ED /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
+		175527692D23CD0100BBB3ED /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/iOSSupport/System/Library/Frameworks/MetalKit.framework; sourceTree = DEVELOPER_DIR; };
+		1755276A2D23CD0100BBB3ED /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
 		17A591FC2D226E13007B4130 /* SLRGTk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLRGTk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A592062D226E14007B4130 /* SLRGTkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLRGTkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17A592552D229B5F007B4130 /* CameraProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraProtocol.swift; sourceTree = "<group>"; };
+		17A592572D229B5F007B4130 /* CallbackProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallbackProtocol.swift; sourceTree = "<group>"; };
+		17A592592D229B5F007B4130 /* ModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		17A5925B2D229B5F007B4130 /* Buffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buffer.swift; sourceTree = "<group>"; };
+		17A5925D2D229B5F007B4130 /* SLRGTk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLRGTk.h; sourceTree = "<group>"; };
+		17A5925E2D229B5F007B4130 /* SLRGTk.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SLRGTk.docc; sourceTree = "<group>"; };
+		17A592602D229B5F007B4130 /* SLRGTkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLRGTkTests.swift; sourceTree = "<group>"; };
+		17A5926B2D22B9FA007B4130 /* FilterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
+		17A5926D2D22DC5D007B4130 /* PermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermissionManager.swift; sourceTree = "<group>"; };
+		17A592732D2336BE007B4130 /* CameraTestEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraTestEngine.swift; sourceTree = "<group>"; };
+		17A592782D23377B007B4130 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		17D406A52D2699E500E7FC4C /* BufferTestEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferTestEngine.swift; sourceTree = "<group>"; };
+		17D406A72D269B6C00E7FC4C /* LiteRTTestEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteRTTestEngine.swift; sourceTree = "<group>"; };
+		1E8287D421880765DEB8ABA4 /* Pods-SLRGTk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLRGTk.release.xcconfig"; path = "Target Support Files/Pods-SLRGTk/Pods-SLRGTk.release.xcconfig"; sourceTree = "<group>"; };
+		1F0ECA9A3D29D895710A0DC4 /* Pods-SLRGTk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLRGTk.debug.xcconfig"; path = "Target Support Files/Pods-SLRGTk/Pods-SLRGTk.debug.xcconfig"; sourceTree = "<group>"; };
+		94D0D4C19985081FDA8B97E5 /* Pods-SLRGTk-SLRGTkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLRGTk-SLRGTkTests.debug.xcconfig"; path = "Target Support Files/Pods-SLRGTk-SLRGTkTests/Pods-SLRGTk-SLRGTkTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A4F123155577B6EC6E48DBE /* Pods_SLRGTk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLRGTk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8A8002E0F3D62A926253068 /* Pods-SLRGTk-SLRGTkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SLRGTk-SLRGTkTests.release.xcconfig"; path = "Target Support Files/Pods-SLRGTk-SLRGTkTests/Pods-SLRGTk-SLRGTkTests.release.xcconfig"; sourceTree = "<group>"; };
+		D02A6AD6F726B174340370A2 /* Pods_SLRGTk_SLRGTkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SLRGTk_SLRGTkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		17A5920E2D226E14007B4130 /* Exceptions for "SLRGTk" folder in "SLRGTk" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			publicHeaders = (
-				SLRGTk.h,
-			);
-			target = 17A591FB2D226E13007B4130 /* SLRGTk */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		17A591FE2D226E13007B4130 /* SLRGTk */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				17A5920E2D226E14007B4130 /* Exceptions for "SLRGTk" folder in "SLRGTk" target */,
-			);
-			path = SLRGTk;
-			sourceTree = "<group>";
-		};
-		17A5920A2D226E14007B4130 /* SLRGTkTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SLRGTkTests;
-			sourceTree = "<group>";
-		};
+		1755271A2D23482200BBB3ED /* SLR GTk Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "SLR GTk Tests"; sourceTree = "<group>"; };
+		1755274A2D23B3EE00BBB3ED /* Assets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Assets; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		175527162D23482200BBB3ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				175527672D23C3F300BBB3ED /* Metal.framework in Frameworks */,
+				175527682D23C3F300BBB3ED /* MetalKit.framework in Frameworks */,
+				175527432D234A4C00BBB3ED /* SLRGTk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17A591F92D226E13007B4130 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1755276B2D23CD0100BBB3ED /* MetalKit.framework in Frameworks */,
+				1755276C2D23CD0100BBB3ED /* Metal.framework in Frameworks */,
+				96529B5CBC065A31C9F41848 /* Pods_SLRGTk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,18 +129,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A592072D226E14007B4130 /* SLRGTk.framework in Frameworks */,
+				C1763CC99AD597636EF8B580 /* Pods_SLRGTk_SLRGTkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		077570108247B57247268437 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				175527652D23C3F300BBB3ED /* Metal.framework */,
+				1755276A2D23CD0100BBB3ED /* Metal.framework */,
+				175527662D23C3F300BBB3ED /* MetalKit.framework */,
+				175527692D23CD0100BBB3ED /* MetalKit.framework */,
+				9A4F123155577B6EC6E48DBE /* Pods_SLRGTk.framework */,
+				D02A6AD6F726B174340370A2 /* Pods_SLRGTk_SLRGTkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		175527522D23B94E00BBB3ED /* Shader */ = {
+			isa = PBXGroup;
+			children = (
+				175527532D23B95600BBB3ED /* HandLandmarkAnnotationController.metal */,
+			);
+			path = Shader;
+			sourceTree = "<group>";
+		};
+		175527562D23B9E900BBB3ED /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				175527572D23B9F500BBB3ED /* HandLandmarkAnnotator.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
 		17A591F22D226E13007B4130 = {
 			isa = PBXGroup;
 			children = (
-				17A591FE2D226E13007B4130 /* SLRGTk */,
-				17A5920A2D226E14007B4130 /* SLRGTkTests */,
+				17A592622D229B5F007B4130 /* SLRGTk */,
+				1755271A2D23482200BBB3ED /* SLR GTk Tests */,
 				17A591FD2D226E13007B4130 /* Products */,
+				AC5B9CCCA4D06A9DC2B6B604 /* Pods */,
+				17A592612D229B5F007B4130 /* SLRGTkTests */,
+				077570108247B57247268437 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,8 +182,91 @@
 			children = (
 				17A591FC2D226E13007B4130 /* SLRGTk.framework */,
 				17A592062D226E14007B4130 /* SLRGTkTests.xctest */,
+				175527192D23482200BBB3ED /* SLR GTk Tests.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		17A592562D229B5F007B4130 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				17A592552D229B5F007B4130 /* CameraProtocol.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		17A592582D229B5F007B4130 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				17A5926D2D22DC5D007B4130 /* PermissionManager.swift */,
+				17A5926B2D22B9FA007B4130 /* FilterProtocol.swift */,
+				17A592572D229B5F007B4130 /* CallbackProtocol.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		17A5925A2D229B5F007B4130 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17A592592D229B5F007B4130 /* ModelProtocol.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A5925C2D229B5F007B4130 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				17A5925B2D229B5F007B4130 /* Buffer.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		17A592612D229B5F007B4130 /* SLRGTkTests */ = {
+			isa = PBXGroup;
+			children = (
+				17A592602D229B5F007B4130 /* SLRGTkTests.swift */,
+			);
+			path = SLRGTkTests;
+			sourceTree = "<group>";
+		};
+		17A592622D229B5F007B4130 /* SLRGTk */ = {
+			isa = PBXGroup;
+			children = (
+				175527562D23B9E900BBB3ED /* Preview */,
+				175527522D23B94E00BBB3ED /* Shader */,
+				1755274A2D23B3EE00BBB3ED /* Assets */,
+				17A592742D2336BE007B4130 /* Engine */,
+				17A592562D229B5F007B4130 /* Camera */,
+				17A592582D229B5F007B4130 /* Common */,
+				17A5925A2D229B5F007B4130 /* Model */,
+				17A5925C2D229B5F007B4130 /* System */,
+				17A5925D2D229B5F007B4130 /* SLRGTk.h */,
+				17A5925E2D229B5F007B4130 /* SLRGTk.docc */,
+				17A592782D23377B007B4130 /* MainView.swift */,
+			);
+			path = SLRGTk;
+			sourceTree = "<group>";
+		};
+		17A592742D2336BE007B4130 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				17D406A72D269B6C00E7FC4C /* LiteRTTestEngine.swift */,
+				17D406A52D2699E500E7FC4C /* BufferTestEngine.swift */,
+				17A592732D2336BE007B4130 /* CameraTestEngine.swift */,
+				175527482D234D4800BBB3ED /* MPTestEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		AC5B9CCCA4D06A9DC2B6B604 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F0ECA9A3D29D895710A0DC4 /* Pods-SLRGTk.debug.xcconfig */,
+				1E8287D421880765DEB8ABA4 /* Pods-SLRGTk.release.xcconfig */,
+				94D0D4C19985081FDA8B97E5 /* Pods-SLRGTk-SLRGTkTests.debug.xcconfig */,
+				C8A8002E0F3D62A926253068 /* Pods-SLRGTk-SLRGTkTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,31 +276,57 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A592692D229B5F007B4130 /* SLRGTk.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		175527182D23482200BBB3ED /* SLR GTk Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1755273A2D23482400BBB3ED /* Build configuration list for PBXNativeTarget "SLR GTk Tests" */;
+			buildPhases = (
+				175527152D23482200BBB3ED /* Sources */,
+				175527162D23482200BBB3ED /* Frameworks */,
+				175527172D23482200BBB3ED /* Resources */,
+				175527472D234A4C00BBB3ED /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				175527462D234A4C00BBB3ED /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1755271A2D23482200BBB3ED /* SLR GTk Tests */,
+				1755274A2D23B3EE00BBB3ED /* Assets */,
+			);
+			name = "SLR GTk Tests";
+			packageProductDependencies = (
+			);
+			productName = "SLR GTk Tests";
+			productReference = 175527192D23482200BBB3ED /* SLR GTk Tests.app */;
+			productType = "com.apple.product-type.application";
+		};
 		17A591FB2D226E13007B4130 /* SLRGTk */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A5920F2D226E14007B4130 /* Build configuration list for PBXNativeTarget "SLRGTk" */;
 			buildPhases = (
+				93E2A71781039F3E39DC2EC4 /* [CP] Check Pods Manifest.lock */,
 				17A591F72D226E13007B4130 /* Headers */,
 				17A591F82D226E13007B4130 /* Sources */,
 				17A591F92D226E13007B4130 /* Frameworks */,
 				17A591FA2D226E13007B4130 /* Resources */,
+				FDDD496975FC01359EA95CD7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				17A591FE2D226E13007B4130 /* SLRGTk */,
+				1755274A2D23B3EE00BBB3ED /* Assets */,
 			);
 			name = SLRGTk;
-			packageProductDependencies = (
-			);
 			productName = SLRGTk;
 			productReference = 17A591FC2D226E13007B4130 /* SLRGTk.framework */;
 			productType = "com.apple.product-type.framework";
@@ -128,21 +335,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 17A592142D226E14007B4130 /* Build configuration list for PBXNativeTarget "SLRGTkTests" */;
 			buildPhases = (
+				67247583ADEC0FF6A0EE3CFF /* [CP] Check Pods Manifest.lock */,
 				17A592022D226E14007B4130 /* Sources */,
 				17A592032D226E14007B4130 /* Frameworks */,
 				17A592042D226E14007B4130 /* Resources */,
+				600A95D30AA2CAD4EC91E076 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				17A592092D226E14007B4130 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				17A5920A2D226E14007B4130 /* SLRGTkTests */,
-			);
 			name = SLRGTkTests;
-			packageProductDependencies = (
-			);
 			productName = SLRGTkTests;
 			productReference = 17A592062D226E14007B4130 /* SLRGTkTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -157,6 +361,9 @@
 				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					175527182D23482200BBB3ED = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					17A591FB2D226E13007B4130 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -166,6 +373,7 @@
 				};
 			};
 			buildConfigurationList = 17A591F62D226E13007B4130 /* Build configuration list for PBXProject "SLRGTk" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -173,19 +381,25 @@
 				Base,
 			);
 			mainGroup = 17A591F22D226E13007B4130;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 17A591FD2D226E13007B4130 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				17A591FB2D226E13007B4130 /* SLRGTk */,
 				17A592052D226E14007B4130 /* SLRGTkTests */,
+				175527182D23482200BBB3ED /* SLR GTk Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		175527172D23482200BBB3ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17A591FA2D226E13007B4130 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,11 +416,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		600A95D30AA2CAD4EC91E076 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLRGTk-SLRGTkTests/Pods-SLRGTk-SLRGTkTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLRGTk-SLRGTkTests/Pods-SLRGTk-SLRGTkTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLRGTk-SLRGTkTests/Pods-SLRGTk-SLRGTkTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67247583ADEC0FF6A0EE3CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLRGTk-SLRGTkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E2A71781039F3E39DC2EC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SLRGTk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDDD496975FC01359EA95CD7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLRGTk/Pods-SLRGTk-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SLRGTk/Pods-SLRGTk-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SLRGTk/Pods-SLRGTk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		175527152D23482200BBB3ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1755276D2D23CFF400BBB3ED /* HandLandmarkAnnotationController.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		17A591F82D226E13007B4130 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				175527492D234D4800BBB3ED /* MPTestEngine.swift in Sources */,
+				17D406A82D269B6F00E7FC4C /* LiteRTTestEngine.swift in Sources */,
+				17D406A62D2699E800E7FC4C /* BufferTestEngine.swift in Sources */,
+				17A592752D2336BE007B4130 /* CameraTestEngine.swift in Sources */,
+				17A592792D23377C007B4130 /* MainView.swift in Sources */,
+				17A592632D229B5F007B4130 /* CameraProtocol.swift in Sources */,
+				17A592642D229B5F007B4130 /* CallbackProtocol.swift in Sources */,
+				175527582D23B9FB00BBB3ED /* HandLandmarkAnnotator.swift in Sources */,
+				17A592652D229B5F007B4130 /* ModelProtocol.swift in Sources */,
+				17A5926C2D22B9FD007B4130 /* FilterProtocol.swift in Sources */,
+				175527542D23B96800BBB3ED /* HandLandmarkAnnotationController.metal in Sources */,
+				17A5926E2D22DC5F007B4130 /* PermissionManager.swift in Sources */,
+				17A592662D229B5F007B4130 /* Buffer.swift in Sources */,
+				17A592672D229B5F007B4130 /* SLRGTk.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,12 +531,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17A5926A2D229B5F007B4130 /* SLRGTkTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		175527462D234A4C00BBB3ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17A591FB2D226E13007B4130 /* SLRGTk */;
+			targetProxy = 175527452D234A4C00BBB3ED /* PBXContainerItemProxy */;
+		};
 		17A592092D226E14007B4130 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 17A591FB2D226E13007B4130 /* SLRGTk */;
@@ -228,18 +551,82 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1755273B2D23482400BBB3ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLR GTk Tests/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RM3HX6258;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SLRGTk";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Get user hand motions for Sign Language Detection";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gatech.ccg.SLR-GTk-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1755273C2D23482400BBB3ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SLR GTk Tests/Preview Content\"";
+				DEVELOPMENT_TEAM = 5RM3HX6258;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/SLRGTk";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Get user hand motions for Sign Language Detection";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gatech.ccg.SLR-GTk-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		17A592102D226E14007B4130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0ECA9A3D29D895710A0DC4 /* Pods-SLRGTk.debug.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8XNJM554J5;
+				DEVELOPMENT_TEAM = 5RM3HX6258;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -263,16 +650,18 @@
 		};
 		17A592112D226E14007B4130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8287D421880765DEB8ABA4 /* Pods-SLRGTk.release.xcconfig */;
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 8XNJM554J5;
+				DEVELOPMENT_TEAM = 5RM3HX6258;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -355,6 +744,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -421,6 +811,7 @@
 		};
 		17A592152D226E14007B4130 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94D0D4C19985081FDA8B97E5 /* Pods-SLRGTk-SLRGTkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -437,6 +828,7 @@
 		};
 		17A592162D226E14007B4130 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8A8002E0F3D62A926253068 /* Pods-SLRGTk-SLRGTkTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -454,6 +846,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1755273A2D23482400BBB3ED /* Build configuration list for PBXNativeTarget "SLR GTk Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1755273B2D23482400BBB3ED /* Debug */,
+				1755273C2D23482400BBB3ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		17A591F62D226E13007B4130 /* Build configuration list for PBXProject "SLRGTk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
